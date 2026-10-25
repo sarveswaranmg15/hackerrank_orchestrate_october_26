@@ -1,0 +1,9 @@
+# source: evidence/images/support_ticket_console_20260524.png
+# sha256: 542b7aec17e6b2f38827896e7eb52c70e4bfaaca22433621be1f80f54884e944
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); corrected: message_text now quotes all four visible messages exactly (earlier version paraphrased the agent reply).
+# note: the conversation includes an agent (Maya Chen) and an order, i.e. shared context (deletion rule_05: REDACT).
+screen title="Helpline Console / Inbox" header="CS-5034 · Where is my delivery?" subtitle="support_1034 · Kofi Agyeman · Normal priority"
+row system=support_platform resource_id=support_1034 ticket=CS-5034 requester_name="Kofi Agyeman" requester_email=kagyeman8947@fastmail.com assigned_agent="Maya Chen" order=ORD-20265034 message_text="Could you let me know where my order is and when it is expected to arrive? | We received your message and are checking the order details. | The parcel reached the regional hub and is on track for delivery on 26 May. | Thanks for the update."

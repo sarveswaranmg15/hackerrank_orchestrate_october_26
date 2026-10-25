@@ -1,0 +1,13 @@
+# source: evidence/images/security_audit_explorer_20260905.png
+# sha256: ca59f693f4e7002466b3fdeaf1bb6763618770963dd811b60003772d07b4b03b
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); values verified; no corrections (raw event: fingerprint 8f0c…31ad, signature Valid, journal 2026-Q3).
+screen title="Sentinel / Account events" subtitle="Subject filter: user_03 · 18-26 Aug 2026 UTC" badge="6 signed events"
+row system=security_service resource_id=audit_record_003 subject_reference=user_03 event="Account closure recorded" recorded_at=2026-08-25T04:03:00Z integrity=Valid
+row system=security_service resource_id=audit_record_002 subject_reference=user_03 event="Session revoked" time="25 Aug 03:21" integrity=Valid
+row system=security_service resource_id=audit_record_001 subject_reference=user_03 event="Recovery challenge completed" time="24 Aug 16:14" integrity=Valid
+row system=security_service resource_id=audit_record_006 subject_reference=user_03 event="Email change confirmed" time="22 Aug 11:27" integrity=Valid
+row system=security_service resource_id=audit_record_005 subject_reference=user_03 event="Login from new device" time="20 Aug 09:42" integrity=Valid
+row system=security_service resource_id=audit_record_004 subject_reference=user_03 event="Password changed" time="18 Aug 14:05" integrity=Valid

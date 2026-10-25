@@ -1,0 +1,11 @@
+# source: evidence/images/account_admin_console_20260926.png
+# sha256: d5c32ca5b6e1a2b4bbe9f5d41835ef1fd5d4f7061dab9067a4f9f88cea3c1861
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); corrected: "Silver" is the loyalty tier, not a status; added visible order ids.
+# correction 2: the ticket row previously stated customer_reference=user_11, which is not displayed; replaced by shown_on_page_of and flagged needs_review.
+# ambiguity: support_9538 is tied to user_11 only by appearing in this customer page ("Support CS-8538 · support_9538"); no message content is shown, so its exposure is unknown.
+screen title="Customer Operations / Customers" header="Haruka Sato · Silver" subtitle="user_11 · account_5762"
+row system=account_service resource_id=account_5762 customer_reference=user_11 full_name="Haruka Sato" email=haruka.s1838@zoho.com phone="+81 90 7610 2507" signup_channel=mobile_app loyalty_tier=Silver orders="ORD-20265762 (12 Sep 2026, Delivered 18 Sep); ORD-20265518 (28 Aug 2026, Returned 03 Sep)" last_contact="24 Sep 2026 09:14 JST"
+row system=support_platform resource_id=support_9538 shown_on_page_of=user_11 ticket=CS-8538 activity="24 Sep Customer replied to CS-8538; 28 Aug support_9538 created" needs_review="ownership: only by placement on user_11's page; no customer field is displayed for the ticket"

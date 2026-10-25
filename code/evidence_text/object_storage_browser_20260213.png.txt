@@ -1,0 +1,15 @@
+# source: evidence/images/object_storage_browser_20260213.png
+# sha256: 96e9a191380c29b9e0ab997007268c4cd6353cb6721ebd1ed4a32599d8d37e04
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); values verified; detail panel for delivery_confirmation_19.pdf also shows content type application/pdf, AES-256, checksum e71b6d…. No object names a person; ownership of object_19 comes only from catalog activity_4007.
+screen title="Nimbus Object Storage / northstar-customer-data" path="eu-west-1 / support-attachments / 2026 / 02" captured="13 Feb 2026 08:00 UTC" badge="8 objects"
+row system=object_storage object=delivery_confirmation_19.pdf size="684 KB" modified="12 Feb 18:42" version=v3 uploader=support-service
+row system=object_storage object=delivery_confirmation_20.pdf modified="11 Feb 14:17"
+row system=object_storage object=return_label_4821.pdf modified="10 Feb 09:33"
+row system=object_storage object=return_label_4876.pdf modified="11 Feb 16:05"
+row system=object_storage object=invoice_NS-10493.pdf modified="10 Feb 11:21"
+row system=object_storage object=parcel_damage_7713.jpg modified="12 Feb 10:08"
+row system=object_storage object=customer_export_2026-02-10.zip modified="10 Feb 23:14"
+row system=object_storage object=customer_export_2026-02-12.zip modified="12 Feb 21:56"

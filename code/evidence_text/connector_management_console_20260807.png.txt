@@ -1,0 +1,9 @@
+# source: evidence/images/connector_management_console_20260807.png
+# sha256: e81fabc93ea1b5f4c918d934cdb2bea05d61737adfcc29f281494f5d8ec46355
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); values verified; added detail-panel fields for data_flow_1121 (Owner Data Platform, Last response 200 OK · 1.8 s). Two further table rows ("Order notifications", "Delivery tracking") have no resource id or customer selector and are omitted.
+screen title="BridgeOps / Connections" subtitle="PRODUCTION · eu-west · 07 Aug 2026 08:00 UTC"
+row system=integration_service resource_id=data_flow_1121 destination=customer_analytics_warehouse selector=jain.aditi@gmail.com mode=Continuous events_per_hour=1284 status=Healthy last_contact="07:59:42" owner="Data Platform" last_response="200 OK · 1.8 s"
+row system=integration_service resource_id=data_flow_9846 destination=customer_analytics_warehouse selector=lucia-torres@gmail.com mode=Continuous events_per_hour=842 last_contact="07:59:36"

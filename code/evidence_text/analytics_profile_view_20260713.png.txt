@@ -1,0 +1,8 @@
+# source: evidence/images/analytics_profile_view_20260713.png
+# sha256: 4e4cb259bc2010b622b0c53fe5872258f994fefc23452a83bb27473758693484
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); values verified; no corrections (First seen 21 Apr 2026 09:14 UTC, Market AE also visible).
+screen title="Pulse Analytics / Users" header="Omar Darwish" subtitle="user_20 · analytics_7438 · darwish.omar@icloud.com"
+row system=analytics_platform resource_id=analytics_7438 user_id=user_20 full_name="Omar Darwish" email=darwish.omar@icloud.com last_activity="13 Jul 2026 14:22 UTC" audience="Returning shopper"

@@ -1,0 +1,14 @@
+# source: evidence/images/backup_restore_console_20260429.png
+# sha256: 2c246aa5843bec609b9ddfdf1154cd81e0fd61996f83954735e9856e48c18bf3
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); values verified; no corrections.
+# ambiguity: the Activity feed sits in backup_9287's detail panel but names other archives ("25 Apr backup_9286 restored · Completed", "24 Apr backup_9281 restored · Completed", "22 Apr checksum verification · Completed"); backup_9281 is not in the table.
+# interpretation: no restore-allowed or restore-blocked field is displayed for any archive. "Last drill 29 Mar 2026" (earlier than backup_9287's "Created 26 Apr 2026") and "backup_9286 restored · Completed" (dated 25 Apr, earlier than its "Created 26 Apr") are NOT treated as evidence of current restorability; images._row_state records them only as a needs_review note (scope: state) and leaves the restore state unknown.
+# correction 3 (2026-10-24, Claude Code claude-opus-5-5): replaced the earlier interpretation note, which said the drill and completed restore "are treated as visible evidence that the restore path works"; that no longer matches the code. Reviewer decision (2026-10-24): the screenshot does not establish restorability at case_55's audit_at 2026-04-30T11:00:00Z.
+screen title="Vault Recovery Manager / Customer-platform archives" badge=Healthy subtitle="Northstar Production · weekly snapshots"
+row system=backup_service resource_id=backup_9291 account=bluepeakco@outlook.com region=ap-southeast-1 created="26 Apr 02:00"
+row system=backup_service resource_id=backup_9288 account=miller.logistics@company.com region=us-west-2 created="26 Apr 02:00"
+row system=backup_service resource_id=backup_9287 account=areed1433@gmail.com region=eu-west-1 created="26 Apr 2026 02:00 UTC" retention_end="26 Jul 2026" checksum=Verified last_drill="29 Mar 2026" path="s3://northstar-backups/customer-platform/weekly/segment-42-20260426.tar.zst"
+row system=backup_service resource_id=backup_9286 account=summit-retail@company.com region=us-east-1 created="26 Apr 02:00" activity="25 Apr backup_9286 restored · Completed"

@@ -1,0 +1,11 @@
+# source: evidence/images/customer_export_console_20260618.png
+# sha256: 18b95c1bd8b8956e40216df935498a9f3c181ea2a69b5cd6d3c0841a816d5557
+# method: visual transcription by Claude Code (model claude-opus-5-5) reading the PNG directly, 2026-10-24;
+#         no OCR engine was available (tesseract/PIL not installed). Transcribed literally: only values visible
+#         on screen; no inferred state. Each "row" line is one on-screen record (key=value, quoted if spaced).
+# audit: 2026-10-24 re-checked against the PNG by Claude Code (claude-opus-5-5); values verified; filenames are customer_export_<id>.zip. Note: export_1260 shows Expires 25 Jun 2026; expiry is not deletion and is not treated as absence.
+screen title="Customer Download Center / Data exports" badge="4 jobs"
+row system=export_service resource_id=export_1261 owner_email=marcus.lee@northstar.shop status=Collecting created="20 Jun 14:18 UTC"
+row system=export_service resource_id=export_1260 owner_email=ingrid.dahl@outlook.com status=Ready created="18 Jun 2026 06:42 UTC" expires="25 Jun 2026 06:42 UTC" download_count=0 included="Profile · Orders · Saved addresses"
+row system=export_service resource_id=export_1259 owner_email=sara.kim@northstar.shop status=Packaging created="17 Jun 11:03 UTC"
+row system=export_service resource_id=export_1258 owner_email=daniel.park@northstar.shop status=Ready created="16 Jun 09:27 UTC"
